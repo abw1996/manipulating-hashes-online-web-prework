@@ -8,7 +8,7 @@ def second_challenge
 food= []
   #code your solution here!
 groceries.each do |dep , data|
-  food + data
+  food += data
 end
 food
 end
